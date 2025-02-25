@@ -1,0 +1,66 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #10142c;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.navList {
+  display: flex;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 15px 60px;
+  margin: 0;
+}
+
+.navLinks li a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 29px;
+  font-weight: 500;
+}
+
+.navLinks li a:hover {
+  color: #08f424;
+  transition: 0.4s;
+  font-size: 30px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.nameList {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 15px 10px;
+  margin: 0;
+}
+.nameList li a {
+  color: #08f424;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  font-size: 29px;
+  font-weight: 500;
+  justify-content: left;
+  letter-spacing: 0.5px;
+}
+.nameList li a:hover{
+    color: white;
+    transition: 0.4s;
+    font-size: 30px;
+}
